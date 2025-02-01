@@ -91,20 +91,20 @@ background-image: url(../c1-assets/cat-big.png) ;
 .item-9{
     display: none;
  }
-.banner{
-    /* height: 100%; */
+/* .banner{
+    
     width: 100%;
     margin: 0;
     background-image: url(../c1-assets/cat-big.png) ;
  
  background-position:right bottom;
- /* position: relative; */
+ 
  max-height: 700px;
   
  background-repeat: no-repeat;
 
     
-} 
+}  */
 .category{
     background-image: url(../c1-assets/cute-pet-small.png) ;
 
