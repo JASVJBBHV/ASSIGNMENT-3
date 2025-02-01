@@ -98,7 +98,7 @@ background-image: url(../c1-assets/cat-big.png) ;
     background-image: url(../c1-assets/cat-big.png) ;
  background-size:contain;
  background-position:right bottom;
- position: relative;
+ /* position: relative; */
  max-height: 700px;
   
  background-repeat: no-repeat;
