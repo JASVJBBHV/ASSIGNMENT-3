@@ -90,7 +90,7 @@ background-image: url(../c1-assets/cat-big.png) ;
 }
 .item-9{
     display: none;
-/* }
+ }
 .banner{
     height: 100%;
     width: 100%;
@@ -104,12 +104,12 @@ background-image: url(../c1-assets/cat-big.png) ;
  background-repeat: no-repeat;
 
     
-} */
+} 
 .category{
     background-image: url(../c1-assets/cute-pet-small.png) ;
 
      background-position:right bottom;
-     background-size: auto;
+     background-size: contain;
      background-repeat: no-repeat;
      margin-top: -30px;
     
