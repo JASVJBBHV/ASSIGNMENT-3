@@ -59,8 +59,9 @@
         /* NAVBAR */
  .banner{
    
+ margin-left: 140px;
+ margin-right: 140px;
 
-margin-left: 140px;
 
 background-image: url(../c1-assets/cat-big.png) ;
  background-size:1650px 800px;
