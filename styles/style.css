@@ -1,0 +1,114 @@
+        /* FONT 1 ADlAM */
+ @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+ .adlam {
+    font-family: "ADLaM Display", serif;
+  
+  }
+
+
+        /* FONT 2 SORA */
+    
+ @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        
+ .sora {
+    font-family: "Sora", serif;
+           
+    }
+
+
+            /* shared style */
+.margin{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.padding{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.bg{
+    background-color:#FFF9F4 ;
+    width: 100%;
+}
+.bg-footer{
+    color: #FFDC2680;
+}
+.bg-yellow{
+    background-color:#F9DF8A;
+}
+.bg-btn-text{
+    color: #FFDC26;
+}
+.dark-1{
+    color: #000;
+}
+.dark-2{
+    color:rgb(17, 17, 17) ;
+}
+.button{
+    padding: 10px 30px 10px 30px;
+    color:#111111 ;
+    background-color: #FFDC26;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    
+}
+
+        /* NAVBAR */
+ .banner{
+   
+
+margin-left: 140px;
+
+background-image: url(../c1-assets/cat-big.png) ;
+ background-size:1650px 800px;
+ background-position:left bottom;
+
+ background-repeat: no-repeat;
+
+} 
+
+.category{
+    background-image: url(../c1-assets/cute-pet-small.png) ;
+
+     background-position:right bottom;
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-top: -30px;
+    
+    } 
+
+
+@media screen and (max-width:768px) {
+.kk{
+    display: none;
+}
+.item-9{
+    display: none;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(../c1-assets/cat-big.png) ;
+ background-size:contain;
+ background-position:right bottom;
+ position: relative;
+ 
+  
+ background-repeat: no-repeat;
+
+    
+}
+.category{
+    background-image: url(../c1-assets/cute-pet-small.png) ;
+
+     background-position:right bottom;
+     background-size: auto;
+     background-repeat: no-repeat;
+     margin-top: -30px;
+    
+    } 
+}

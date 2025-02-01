@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- CSS FILE -->
+    <link rel="stylesheet" href="styles/style.css"> 
+                    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+                    <!-- daisyUI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+                    <!-- TAILWIND JS CODE -->
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            backgroundImage: {
+        'cat-banner': "url('/c1-assets/cat-big.png')",
+      },
+          }
+        }
+      }
+    }
+  </script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ae2231ae5f.js" crossorigin="anonymous"></script>
+    
+<title>Document</title>
+</head>
+<body>
+    <header>
+    <div class=" kk  md:flex lg:flex  md:items-center md:justify-between justify-between bg lg:px-36 md:p-7">
+        <div class="md:flex  lg:flex items-center gap-1">
+            <img src="c1-assets/logo-header.png" alt="">
+            <h1 class="sora dark-2 font-normal text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+        </div>
+         <div class="text-xl font-normal dark-2 sora space-x-8 flex">
+            <h6>Find a pet</h6>
+            <h6>Breeds</h6>
+            <h6>Contact us</h6>
+        </div>
+        <div class="md:flex lg:flex items-center gap-5">
+            <h6><i class="fa-regular fa-bell text-2xl" style="color: #000000; "></i></h6>
+            <h6><i class="fa-solid fa-magnifying-glass text-2xl" style="color: #000000;"></i></h6>
+            <button class="btn btn-outline border-[#FFDC26] text-[#111111] text-xl font-normal">Login</button>
+            <button class="button">Register</button>
+        </div> 
+    </div >
+    <nav class=" flex items-center justify-between pt-4 pb-2.5 px-4 bg border-b-[0.5px] border-black md:hidden lg:hidden">
+        <div> <img src="c1-assets/logo-header.png"  alt=""></div>
+        <div><i class="fa-sharp fa-solid fa-bars text-2xl" style="color: #000000;"></i></div>
+    </nav>
+
+                 <!-- banner section -->
+ <div class=" banner ">
+  <div class="  p-6 h-[510px]  lg:mt-24 lg:h-[700px] ">
+    <h1 class="kk lg:dark-2 adlam  lg:text-6xl lg:font-normal  lg:leading-[70px] animate-pulse">Pamper Your Pet, <br> Because They Deserve the <br> Best</h1>
+    <h1 class="dark-2 adlam text-5xl  font-normal  lg:hidden mb-4  animate-pulse">Pamper Your Pet,  Because They Deserve the  Best</h1>
+    <p class="sora  w-11/12  font-normal text-xl dark-2 opacity-70 lg:w-[500px] mb-6">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+    <button class="button">Find a pet</button>
+
+  </div>
+ </div>
+
+</header>
+<main>
+          <!-- categories -->
+<div class=" mx-4 mt-14 lg:mx-36 lg:my-[140px] mb-14 ">
+  <h1 class="dark-2 adlam text-4xl  font-normal pb-8 lg:pb-12  ">Browse By Categories</h1>
+<div class="  grid grid-cols-2 gap-[10px] lg:grid-cols-6 lg:gap-6">
+  <div class=" bg-[#F9DF8A] rounded-xl p-9 flex flex-col items-center justify-center text-center">
+    <div class="avatar">
+      <div class="w-24 rounded-full p-7 mb-3 bg-white">
+        <img src="c1-assets/dog-cartoon.png" class="animate-bounce" />
+      </div>
+    </div>
+    <div>
+      <h6 class="adlam font-normal text-xl dark-1">Dog</h6>
+      <p class="sora font-normal text-base dark-1">3 items</p>
+    </div>
+  </div>
+
+
+  <div class=" bg-[#F9DF8A] rounded-xl p-9 flex flex-col items-center justify-center text-center">
+    <div class="avatar ">
+      <div class="w-24  rounded-full p-7 mb-3 bg-white">
+        <img src="c1-assets/fish-cartoon.png" class="animate-bounce"/>
+      </div>
+    </div>
+    <div>
+      <h6 class="adlam font-normal text-xl dark-1">Fish</h6>
+      <p class="sora font-normal text-base dark-1">3 items</p>
+    </div>
+  </div>
+
+
+  <div class=" bg-[#F9DF8A] rounded-xl p-9 flex flex-col items-center justify-center text-center">
+    <div class="avatar">
+      <div class="w-24 rounded-full p-7 mb-3 bg-white">
+        <img src="c1-assets/cat-cartoon.png" class="animate-bounce" />
+      </div>
+    </div>
+    <div>
+      <h6 class="adlam font-normal text-xl dark-1">Cat</h6>
+      <p class="sora font-normal text-base dark-1">3 items</p>
+    </div>
+  </div>
+
+
+  <div class=" bg-[#F9DF8A] rounded-xl p-9 flex flex-col items-center justify-center text-center">
+    <div class="avatar">
+      <div class="w-24 rounded-full p-7 mb-3 bg-white">
+        <img src="c1-assets/bird-cartoon.png" class="animate-bounce"/>
+      </div>
+    </div>
+    <div>
+      <h6 class="adlam font-normal text-xl dark-1">Birds</h6>
+      <p class="sora font-normal text-base dark-1">3 items</p>
+    </div>
+  </div>
+
+
+  <div class=" bg-[#F9DF8A] rounded-xl p-9 flex flex-col items-center justify-center text-center">
+    <div class="avatar">
+      <div class="w-24 rounded-full p-7 mb-3 bg-white">
+        <img src="c1-assets/mouse-cartoon.png" class="animate-bounce" />
+      </div>
+    </div>
+    <div>
+      <h6 class="adlam font-normal text-xl dark-1">Small pet</h6>
+      <p class="sora font-normal text-base dark-1">3 items</p>
+    </div>
+  </div>
+
+
+  <div class=" bg-[#F9DF8A] rounded-xl py-20  flex flex-col items-center justify-center text-center">
+    <div class="avatar">
+      <div class="w-24 rounded-full p-7 mb-3 bg-white">
+        <img src="c1-assets/rabbit-cartoon.png" class="animate-bounce" />
+      </div>
+    </div>
+    <div>
+      <h6 class="adlam font-normal text-xl dark-1">Rabit</h6>
+      <p class="sora font-normal text-base dark-1">3 items</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+            <!-- trending part -->
+
+<div class="lg:bg lg:p-36 ">
+  <h1 class="dark-2 adlam text-4xl  font-normal pl-4 pb-16 lg:pb-12 ">Trending Pet Products</h1>
+  <div class="mb-16 px-4 lg:grid lg:grid-cols-3 lg:gap-5 lg:items-center lg:justify-center">
+    <!-- big box -->
+    <div class="bg-yellow py-12 px-6 rounded-[10px] flex flex-col category ">
+    <div class=" h-[340px] lg:row-span-2 lg:h-[327px] lg:w-fit " >
+      <h1 class="dark-2 adlam text-4xl  font-normal  ">T-Shirt For Dogs</h1>
+      <p class="sora  w-11/12  font-normal text-xl text-gray-600 lg:w-[500px] mb-6">Discover a world of treats, toys, and <br> essentials handpicked for</p>
+      <button class="btn    md:btn-md lg:btn-lg bg-white sora text-xl lg:mb-28"> Shop now</button>
+    </div>
+  </div>
+          <!-- grid items -->
+               
+  <div class="grid grid-cols-2 gap-3 pt-6 pb-14 lg:grid-cols-3 lg:gap-6 lg:col-span-2 ">
+
+               <!-- ITEM-1 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A] ">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/dog-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+
+
+                 <!-- ITEM-2 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/fish-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+
+
+                 <!-- ITEM-3 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/bird-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+
+
+                 <!-- ITEM-4 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/rabbit-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+
+
+                 <!-- ITEM-5 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/bird-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+
+                 <!-- ITEM-6 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/pet-couch.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+                 <!-- ITEM-7 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/fish-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+                 <!-- ITEM-8 -->
+    <div class="flex gap-4 items-center p-4 border-[0.62px] rounded-[6.23px] bg-white border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/pet-couch.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+                 <!-- ITEM-9 -->
+    <div class=" kk md:hidden lg:flex lg:gap-4 lg:items-center lg:p-4 lg:border-[0.62px] lg:rounded-[6.23px] lg:bg-white lg:border-[#1111111A]">
+      <div class="avatar">
+        <div class="bg-[#FFF9F4] rounded-[10px] ">
+          <img class="p-5"
+            src="c1-assets/rabbit-cartoon.png"
+            alt="" />
+        </div>
+      </div>
+      <div class="space-y-2">
+        <p> <i class="fa-solid fa-star text-[#FFC107]"> <span class="sora font-normal text-base dark-1">4.5</span></i></p>
+        <h4 class="sora font-medium text-xl dark-1">Pet Bed</h4>
+        <p class="sora font-medium text-base dark-1">$39.99</p>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+                        <!-- LOW PRICE -->
+
+
+  <div class="">
+    <h1 class="dark-2 adlam text-4xl  font-normal pl-4 pb-8 lg:pb-12 ">Everyday low Price</h1>
+                    <!-- FIRST -->
+    <div class="flex flex-col gap-7 p-4 lg:grid lg:grid-cols-5  ">
+    <div class=" flex-1 lg:flex lg:items-center lg:justify-center bg-gradient-to-r from-[#F7CCFB] to-[#AFD2FD]  rounded-xl lg:gap-[26px] col-span-3 ">
+      <div class="  pt-10 pl-8 lg:pl-[88px]  lg:flex-1 lg:pt-0 ">
+        <h6 class="dark-1 sora text-xl mb-3  font-normal kk">Under Price</h6>
+        <h4 class="dark-1 adlam text-xl lg:text-3xl lg:mb-2 font-normal">Pet Grooming Mitt</h4>
+        <h6 class="text-white adlam text-2xl mb-4 font-normal kk">(Easy Hair Removal)</h6>
+        <h1 class="lg:dark-2 text-white mb-0 adlam text-5xl lg:text-[56px]  font-normal">$7.99</h1>
+      </div>
+      <div class="ml-40 -mt-14 lg:flex-1 lg:ml-0 lg:mb-0 lg:mt-0 lg:p-0">
+        <img src="c1-assets/cute-dog-mid.png" class="w-full h-full lg:w-[700px] lg:h-[600px]" alt="">
+      </div>
+    </div>
+                      <!-- SECOND -->
+    <div class="  flex-1 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl col-span-2">
+      <div class="pt-10 pl-8">
+        <h4 class="dark-1 adlam text-xl lg:text-3xl  font-normal">T-Shirt for Dogs</h4>
+        <h1 class="text-[#FFDC26] adlam text-5xl lg:text-[56px]  font-normal">$7.99</h1>
+       
+      </div>
+      <div class="ml-40 -mt-14 " >
+        <img src="c1-assets/cute-pet-mid.png" class=" w-full h-full lg:h-full lg:w-full" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+  
+</main>
+<footer class="flex flex-col  items-center lg:mt-[405px] mt-[500px]  bg-[#FFDC2680] relative ">
+  <!-- form section -->
+   <div class="absolute lg:-top-1/3 -top-1/2">
+    <div class="ml-4 mr-4 p-3 rounded-2xl flex flex-col gap-8 py-8 lg:flex lg:flex-row  items-center justify-center lg:gap-28 bg-[#FFF9F4]  lg:pl-36 lg:pr-36">
+      <div class=""><img src="c1-assets/cute-pet-mid.png" width="100%"  alt=""></div>
+      <div>
+        <div class=" text-center lg:text-left overflow-hidden ">
+          <h1 class="dark-2 adlam text-4xl  font-normal mb-5">Get awesome News!</h1>
+          <p class="sora text-wrap dark-2  font-normal text-xl mb-10">Exclusive training tips, ticks, product deals and more.</p>
+          <input type="email" placeholder="Enter email" class="mb-10 rounded-lg bg-[#FFFFFF] py-5 pl-[18px] w-11/12 lg:pr-72"><br>
+          <button class="button"> Subscribe</button>
+        </div>
+      </div>
+    </div> 
+   </div>
+ 
+
+
+  <!-- main footer -->
+  <div class="pb-14 pl-4 flex flex-col gap-9 pt-[336px] lg:pb-36 lg:w-full lg:flex lg:flex-row lg:items-center lg:justify-around">
+
+      <div class="">
+        <div class="pt-20 md:flex flex flex-row mb-4 lg:mb-8 lg:flex items-center gap-2 ">
+          <img src="c1-assets/logo-footer.png" alt="">
+          <h1 class="sora dark-2 font-normal text-2xl ">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+        </div>
+        <p class="dark-2 opacity-70 sora  w-11/12  font-normal text-xl kk">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+        <p class="dark-2 opacity-70 sora  w-11/12  font-normal text-xl lg:hidden">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+      </div>
+      <div class="">
+        <div class="text-xl font-normal dark-2 sora space-y-8 flex flex-col">
+          <h6>Find a pet</h6>
+          <h6>Breeds</h6>
+          <h6>Contact us</h6>
+        </div>
+      </div>
+      
+      <div class=" ">
+        <h6>Follow Us</h6>
+        <div class="space-x-4">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
+
