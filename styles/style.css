@@ -54,6 +54,7 @@
     font-weight: 400;
     border-radius: 8px;
     
+    
 }
 
         /* NAVBAR */
@@ -64,7 +65,8 @@
 
 
 background-image: url(../c1-assets/cat-big.png) ;
- background-size:1650px 800px;
+ /* background-size:1650px 800px; */
+ background-size:contain;
  background-position:left bottom;
 
  background-repeat: no-repeat;
